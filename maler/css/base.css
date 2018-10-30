@@ -61,6 +61,10 @@ html * {
   box-sizing: border-box;
 }
 
+.main-navigation {
+  display: none;
+}
+
 #logo {
   position: fixed;
   z-index: 100;
@@ -89,7 +93,6 @@ html * {
 }
 
 #logo-part-2 a {
-  display: block;
    width: 100%;
    height: 100%;
    background-color: white;
@@ -98,8 +101,6 @@ html * {
 header {
   position: relative;
   width: 100%;
-  height: 45vw;
-  background: lightblue;
   overflow: hidden;
 }
 
@@ -121,11 +122,36 @@ header h1 {
   position: absolute;
   bottom: 0;
   left: 0;
+  color: white;
+  background: none;
+  font-weight: lighter;
+}
+
+header#main-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+header#main-header .inner-wrapper,
+.content-element .inner-wrapper,
+footer .inner-wrapper {
+  position: relative;
+  max-width: var(--screen-max);
+  margin: 0 auto;
+}
+
+header#main-header h1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
   background: green;
 }
 
 main {
-  background: lightgrey;
+  background: white;
   flex: 1;
 }
 
@@ -138,6 +164,7 @@ footer a {
   color: var(--grey-light);
   font-family: var(--footer-font);
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 footer ul {
