@@ -1,0 +1,19 @@
+.list_1 li {
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 10px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.list_2 li {
+  display: inline;
+  float: right;
+  margin: 0;
+  padding: 10px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
