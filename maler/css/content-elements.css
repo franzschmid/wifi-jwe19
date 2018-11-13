@@ -48,11 +48,17 @@ min-height: 35vw;
 
 .form {
     background: var(--grey-dark);
-    flex: 1;
     color: var(--grey-light);
     font-family: var(--footer-font);
     text-decoration: none;
-    text-transform: uppercase;
+}
+
+.form p {
+  flex: 1;
+  position: relative;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 #submit {
