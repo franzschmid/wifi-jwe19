@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formular-Test</title>
+  </head>
+  <body>
+    <form method="get" action="forms.html">
+      <p>
+        <label for="female">Frau</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <label for="male">Mann</label>
+        <input type="radio" name="gender" id="male" value="male">
+      </p>
+        <label for="firstname">Vorname</label>
+        <input type="text" name="firstname" id="firstname" value="" placeholder="Vorname">
+        <p>
+        </p>
+        <label for="lastname">Nachname</label>
+        <input type="text" name="lastname" id="lastname" value="" placeholder="Nachname">
+      <p>
+        <label for="email">Mail</label>
+        <input type="email" name="email" id="email" value="" placeholder="your@email.com" required>
+      </p>
+      <p>
+        <label for="passwordId"></label>
+        <input type="password" name="passwordId" id="passwordId" value="">
+      </p>
+      <p>
+        <label for="date"></label>
+        <input type="date" name="date" id="date" value="" placeholder="Datum">
+      </p>
+      <p>
+        <label for="socks">Wie viele Paar Socken kannst du geleichzeitig tragen (Einzelstücke angeben?)</label>
+        <input type="number" name="socks" value="" min="4" max="30" step="2">
+      </p>
+      <p>
+        <label for="animalfriend">Welche Haustiertyp bist du?</label>
+        <select id="animalfriend" name="animalfriend" multiple>
+          <option value="katze123" class="katze">Katze</option>
+          <option value="tiger123">Tiger</option>
+          <option value="schaf123">Schaf</option>
+          <option value="hund123">Hund</option>
+          <option value="gans123">Gans</option>
+        </select>
+      </p>
+      <p>
+        <label for="notes"></label>
+        <textarea name="notes" rows="8" cols="80">loh bövbk öajklg asdjkf dasder</textarea>
+      </p>
+      <p>
+        <label for="agb">AGB ja OK!</label>
+        <input type="checkbox" name="agb" id="agb" value="ok" required>
+      </p>
+      <p>
+        <input type="submit" name="submit" value="submit" id="submit" value="Jetzt absenden!">
+        <button>Absenden?</button>
+        <input type="reset" name="reset" value="Alles weg">
+      </p>
+    </form>
+  </body>
+</html>
