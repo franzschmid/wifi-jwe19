@@ -46,6 +46,23 @@ min-height: 35vw;
   opacity: .6;
 }
 
+.form {
+    background: var(--grey-dark);
+    flex: 1;
+    color: var(--grey-light);
+    font-family: var(--footer-font);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#submit {
+  display: inline-block;
+  padding: 1em 2em;
+  background: orange;
+  color: white;
+  text-decoration: none;
+}
+
 
 @media screen and (min-width: 576px) {
   .content-element .teaser p {
