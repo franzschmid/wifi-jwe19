@@ -1,0 +1,22 @@
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  padding: 10px;
+  background-color: yellow;
+}
+
+.footer-left {
+  text-align: left;
+  border: solid black;
+}
+
+.footer-center {
+  text-align: left;
+  border: solid black;
+}
+
+.footer-right {
+  text-align: center;
+  border: solid black;
+}
