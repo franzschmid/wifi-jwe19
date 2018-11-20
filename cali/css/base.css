@@ -37,13 +37,17 @@ li {
   padding-left: 30vw;
 }
 
-.header-image-bar {
-  display: inline;
+.header-image-bar-outer-wrapper {
   text-align: center;
   padding: 0;
   margin: 0;
 }
 
+.header-image-bar-inner-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
 
 main {
   background-color: green;
