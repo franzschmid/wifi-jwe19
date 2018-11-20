@@ -43,6 +43,10 @@ main {
   background-color: green;
 }
 
+.posts-title {
+  text-align: center;
+}
+
 .posts-teaser {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -51,6 +55,11 @@ main {
 .pictures-area {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#pic:hover {
+  opacity: 0.6;
+  color: red;
 }
 
 footer {
