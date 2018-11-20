@@ -9,13 +9,55 @@ header {
   background-color: yellow;
 }
 
+.logo-navigation-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+li {
+  display: inline;
+}
+
+.header-image {
+  background-image: url("goldengatebridge.jpg");
+  background-size: cover;
+  display: block;
+  min-height: 35vw;
+}
+
+.header-image-text {
+  color: white;
+  display: block;
+  padding-top: 20vw;
+  padding-bottom: 5vw;
+  padding-left: 30vw;
+}
+
+.header-image-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 
 main {
   background-color: green;
 }
 
+.posts-teaser {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictures-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 footer {
   background-color: blue;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
