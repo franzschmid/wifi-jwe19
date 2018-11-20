@@ -9,7 +9,11 @@ header {
   background-color: yellow;
 }
 
-.logo-navigation-wrapper {
+.logo-navigation-outer-wrapper {
+  text-align: center;
+}
+
+.logo-navigation-inner-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -34,8 +38,10 @@ li {
 }
 
 .header-image-bar {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: inline;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -67,6 +73,17 @@ footer {
 }
 
 .footer-wrapper {
+  text-align: center;
+}
+
+.footer-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
 }
