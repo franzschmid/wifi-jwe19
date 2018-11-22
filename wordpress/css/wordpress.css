@@ -1,0 +1,33 @@
+.header-background {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/goldengatebridge.jpg);
+  background-repeat: no-repeat;
+  object-fit: fill;
+}
+
+.header-text-outer-wrapper {
+  position: relative;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 25%;
+}
+
+.header-text-inner-wrapper {
+  display: flex 1fr 1fr;
+  align-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+}
+
+.page-intro {
+  float: left;
+}
+
+.picture-description {
+  float: right;
+}
