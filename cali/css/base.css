@@ -6,7 +6,7 @@ html, body {
 }
 
 header {
-  background-color: yellow;
+  background-color: white;
 }
 
 .logo-navigation-outer-wrapper {
@@ -62,7 +62,7 @@ li {
 }
 
 main {
-  background-color: green;
+  background-color: white;
 }
 
 .posts-title {
@@ -85,7 +85,7 @@ main {
 }
 
 footer {
-  background-color: blue;
+  background-color: darkgrey;
 }
 
 .footer-wrapper {

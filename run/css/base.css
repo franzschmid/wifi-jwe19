@@ -1,0 +1,93 @@
+html, body {
+  max-width: 873px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+
+header {
+
+}
+
+.header-outer-wrapper {
+  background-image: url("../img/runner.jpg");
+  background-size: cover;
+  display: block;
+  min-height: 35vw;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+}
+
+.blog-title {
+  position: relative;
+  min-height: 2em;
+  background-color: lightblue;
+
+}
+
+.blog-title-text {
+  position: relative;
+  float: left;
+}
+
+.title-image-text-container {
+  position: relative;
+  margin-top: 30vw;
+  min-height: 2em;
+  background-color: lightblue;
+  opacity: 0.4;
+}
+
+.title-image-text {
+  float: right;
+}
+
+.main-outer-wrapper {
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: lightblue;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.main-navigation-wrapper {
+  position: relative;
+  text-align: left;
+  background-color: lightblue;
+  margin-top: 0;
+}
+
+.main-navigation-inner-wrapper {
+  position: relative;
+  background-color: #00bfff;
+  margin-top: 0;
+}
+
+.main-navigation-title {
+
+}
+
+.main-navigation-items {
+
+}
+
+.main-text-wrapper {
+  text-align: left;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+}
+
+.footer-outer-wrapper {
+  position: relative;
+  background-color: blue;
+  width: auto;
+  min-height: 2em;
+}
+
+.footer-text {
+  position: relative;
+  float: right;
+  color: white;
+}
