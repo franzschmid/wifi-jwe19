@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background: lightblue;
+  color: black;
+}
+
+.calculator {
+  background-color: lightgreen;
+  display: grid;
+  grid-auto-rows: 2em;
+  padding: 3em;
+}
+
+
+input[type="button"] {
+  height: 2em;
+  width: 4em;
+}

@@ -1,0 +1,196 @@
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  font-family: Open-Sans;
+  object-position: center;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url(../fonts/open-sans-v15-latin-regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url(../fonts/open-sans-v15-latin-700.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url(../fonts/open-sans-v15-latin-300.ttf);
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Covered-by-your-Grace";
+  src: url(../fonts/covered-by-your-grace-v7-latin-regular.ttf);
+  font-weight: normal;
+}
+
+.header-outer-wrapper {
+  position: relative;
+  display: fixed;
+  width: 100%;
+  min-height: 120px;
+}
+
+.header-inner-wrapper {
+  display: inline-grid;
+}
+
+.header-logo>img {
+  max-width: 200px;
+  max-height: auto;
+}
+
+.header-navigation {
+  float: right;
+  font-size: 2em;
+  font-family: Open-Sans;
+  font-weight: bold;
+}
+
+.header-image>img {
+  max-width: 1200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-outer-wrapper {
+  position: relative;
+  background-color: #CDE8EA;
+  text-align: center;
+  padding: 10em;
+}
+
+.about-inner-wrapper {
+  background-color: white;
+  align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+
+.about-text > h2 {
+  font-family: Covered-by-your-Grace;
+  font-size: 1.5em;
+}
+
+
+
+.main-image-outer-wrapper {
+  position: relative;
+  min-height: 600px;
+  background-size: cover;
+  background-image: url("../img/1920x850.png");
+}
+
+.main-image-inner-wrapper {
+  text-align: center;
+}
+
+.main-image-text {
+  position: absolute;
+  font-family: Covered-by-your-Grace;
+  font-size: 3em;
+  top: -50% left: 50%;
+}
+
+.gallery-outer-wrapper {
+  position: relative;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.gallery-headline {
+  display: relative;
+  font-family: Covered-by-your-Grace;
+  font-size: 3em;
+}
+
+.gallery-inner-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gallery-inner-wrapper>img:hover {
+  display: absolute;
+  color: white;
+}
+
+.contact-outer-wrapper {
+  background-color: #3C3C3C;
+}
+
+.contact-headline {
+  display: absolute;
+  text-align: center;
+  font-family: Covered-by-your-Grace;
+  font-size: 3em;
+  color: white;
+}
+
+.contact-inner-wrapper {
+  position: relative;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  color: white;
+}
+
+.contact-info > img {
+  max-width: 200px;
+  max-height: auto;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+.footer-outer-wrapper {
+  position: relative;
+  background-color: #CDE8EA;
+}
+
+.footer-inner-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-inner-wrapper>p {}
+
+.footer-left {
+  text-align: left;
+  list-style-type: none;
+}
+
+.footer-right {
+  text-align: right;
+  list-style-type: none;
+}
+
+.footer-bottom {
+  background-color: #3C3C3C;
+}
+
+/*  small */
+@media only screen and (max-width: 480px) {
+  footer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {}
+
+/*  large */
+@media only screen and (min-width: 1200px) {}
