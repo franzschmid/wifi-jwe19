@@ -1,0 +1,22 @@
+.lightbox-wrapper {
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+.lightbox-wrapperimg {
+  max-width: 100%;
+  heigth: auto;
+}
+
+
+@media U(min-width: 320px) {
+  .lightbox-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media U(min-width: 576px) {
+  .lightbox-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
